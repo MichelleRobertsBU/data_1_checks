@@ -6,7 +6,8 @@ cue = {
 
 x = cue.values()
 
-print(x)
+print(cue['price'])
+
 
 
 
