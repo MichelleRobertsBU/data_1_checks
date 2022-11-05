@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\KnowledgeCheck1.py"
   ],
-  "SelectedNode": "\\C:\\Users\\missm\\Source\\Repos\\data_1_checks2",
+  "SelectedNode": "\\KnowledgeCheck1.py\\kc_2.py",
   "PreviewInSolutionExplorer": false
 }
