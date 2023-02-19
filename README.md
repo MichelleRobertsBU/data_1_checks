@@ -17,9 +17,13 @@ This directory includes a few sample datasets to get you started.
 california_housing_data*.csv is California housing data from the 1990 US Census; 
 more information is available at: https://developers.google.com/machine-learning/crash-course/california-housing-data-description
 
-##Knowledge Check 1 from second class:
+##Knowledge Check 1 from second class (DataC2KC1Sept2.py):
 * Pull in data from an API.
 * Find and print TWO descriptive statistics about your data.
 * Write a query in Pandas to select a particular set of your data.
 * Select and print the SECOND AND THIRD columns of your data frame.
 * Select and print the FIRST 4 rows of you data frame.
+
+The API from Punk API does not need a key. https://api.punkapi.com/v2/beers. 
+Imports include pandas and requests. It was created in 
+Visual Studio using Python. 
