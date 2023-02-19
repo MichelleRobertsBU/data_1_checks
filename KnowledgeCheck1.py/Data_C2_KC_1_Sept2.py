@@ -33,9 +33,17 @@ print(df_abv.loc[df_abv["abv"]==df_abv["abv"].min(),:])
 print("The beer with the highest alcohol by volume is")
 print(df_abv.loc[df_abv["abv"]==df_abv["abv"].max(),:])
 
-#
+#Select and print the SECOND AND THIRD columns of your data frame
 
+url = "https://api.punkapi.com/v2/beers?page=2&per_page=80"
+r = re.get(url)
+r_json = r.json()
+df_large = pd.json_normalize(data = r_json)
+print(df_large.keys())
+print(df_large[["name", "tagline"]])
 
+#Select and print the FIRST 4 rows of your data frame
+print(df_large.iloc[:4])
 
     
 
